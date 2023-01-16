@@ -11,6 +11,7 @@ import { StatusBar } from 'expo-status-bar';
 const Stack = createNativeStackNavigator();
 
 function App() {
+  console.log("hello flipper");
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -23,7 +24,7 @@ function App() {
           options={{
             headerShown: false
           }}
-        />
+         />
       </Stack.Navigator>
       <StatusBar style="light"
       />
